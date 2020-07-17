@@ -85,8 +85,6 @@ jobs:
         java-version: 1.8
     - name: Test with Maven
       run: mvn test
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
 ```
 
 ## Publishing Docker Images to GitHub Packages
